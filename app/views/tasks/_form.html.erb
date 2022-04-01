@@ -12,16 +12,17 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
+    <p>La tache a faire : </p>
     <%= form.text_field :name %>
   </div>
 
   <div class="field">
-    <%= form.label :status %>
-    <%= form.check_box :status %>
+<p>Fini :</p>
+<%= form.check_box :status %>
   </div>
 
   <div class="actions">
+
     <%= form.submit %>
   </div>
 <% end %>

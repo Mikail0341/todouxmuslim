@@ -1,14 +1,14 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong class="bouton_ajouter">ajouter une tache </strong>
+  <strong> Tache ajouter :  </strong>
   <%= @task.name %>
 </p>
 
 <p>
-  <strong>Status:</strong>
+  <strong>Fini : </strong>
   <%= @task.status %>
 </p>
 
-<%= link_to 'Edit', edit_task_path(@task) %> |
-<%= link_to 'Back', tasks_path %>
+
+<%= link_to 'Voir les autres taches', tasks_path %>

@@ -21,34 +21,51 @@ body{
 
 hr {
   color: black;
-  size: 100px;
+
   }
 
-  h1{
+h1{
+    font-family: 'Petit Formal Script', cursive;
     font-size: 30px;
     color: white;
     text-align: center;
   }
 
-  h2{
-    font-size: 50px;
+h2{
+    font-size: 25px;
     color: white;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
   }
 
-  td{
-    font-size: 30px;
+td{
+    font-size: 20px;
     color: white;
     padding-bottom: 25px;
+    text-align: center;
   }
 
-  th{
-    font-size: 35px;
+th{
+    font-size: 25px;
     color: white;
     padding-right: 120px;
     padding-bottom: 50px;
+    text-align: center;
   }
 
-.boutonajouter {
-  font-size: 120px;
+.boutonajouter{
+  size: 120px;
+}
+
+.modifier_tache{
+  color: white;
+  font-size: 25px;
+}
+
+table{
+  text-align: center;
+}
+
+.modifiersupprimer{
+  font-size: 25px;
 }
